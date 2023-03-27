@@ -11,3 +11,316 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-22px{
+  font-size: 30px;
+  font-weight: 700;
+}
+.width100{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.justcenter{
+  justify-content: center;
+}
+/* ------------------ login ------------------ */
+
+.registeration-outer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80vw;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  color: black;
+  background-color: #5b9af8;
+  box-shadow: 3px 10px 18px 4px var(--drop-shadow);
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-inner .input {
+  height: 42px;
+  width: calc(100% - 30px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 12px;
+  margin: 5px;
+}
+
+.registration-inner .input:disabled {
+  background-color: #fff;
+}
+
+.pass-field {
+  background-color: #fff;
+}
+
+.registration-btn {
+  cursor: pointer;
+  display: flex;
+  width: calc(100% - 30px);
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 12px;
+  background-color: #ee9e09;
+  color: rgb(27, 26, 26);
+}
+
+.registration-btn:hover {
+  background-color: #f1b100;
+}
+.passinput,.emailinput{
+  margin-top: 10px;
+  height: 30px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+.btnn{
+  background-color: #00009b;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* ------------------profile-------------------- */
+.notification-page {
+  display: flex;
+  height: calc(100vh - 80px);
+  justify-content: center;
+  align-items: center;
+}
+
+.notification {
+  max-width: 500px;
+  width: 100%;
+  background-color: #c7ceff;
+  margin: 10px;
+  border-radius: 18px;
+  padding: 50px 10px ;
+  margin-top: -120px;
+}
+.userlogo{
+  height: 100px;
+}
+.profile-head h1{
+  margin: 10px;
+  margin-bottom: 0px;
+}
+.profile-head b{
+  margin: 0px;
+}
+
+
+.header{
+  background: #15335d;
+  height: 50px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.profilelogo{
+  color: white;
+}
+.docDetails{
+  margin: auto;
+  margin-top: 20px;
+  background-color: #15335d;
+  color: white;
+  width: 70%;
+  border-radius: 12px;
+  padding: 15px 5px;
+}
+
+
+
+
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options{
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 12px;
+  display: flex;
+  background-color: #c7ceff;
+}
+.option1{ 
+  width: 50%;
+  padding: 10px;
+  border-right: 1px solid black; 
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.option2{ 
+  width: 50%; 
+  padding: 10px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.selected{
+  background-color: #15335d;
+  color: white;
+}
+.valuediv{
+  background-color:#c7ceff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.val{
+  color: #d40000;
+}
+.recentmeasures{
+  margin: auto;
+  display: flex;
+  min-height: 320px;
+  width: calc(95vw - 30px);
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 10px; */
+  padding: 15px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  background-color: #15335d;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+}
+.head3{
+  margin: 20px;
+  color: white;
+}
+.calander{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.chats
+{
+  position: relative;
+  margin-top: 20px;
+  background-color: #c7ceff;
+  height: calc(100vh - 180px);
+  width: 95vw;
+  max-width: 530px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+.chatbox{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 16px;
+  height: 30px;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  padding-right: 5px;
+  border-radius: 20px;
+}
+.chatbox input{
+  background-color: transparent;
+    border: 0px solid;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    width: 100%;
+}
+.chatbox input:focus{
+  outline: none;
+}
+.heading{
+  align-self: center;
+  font-size: 26px;
+  color: white;
+  width: 100%;
+  margin-left: -80px;
+}
+.sendbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #15335d;
+  padding: 10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.react-calendar{
+  width: min(95vw,530px) !important;
+  height: 330px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 12px 20px 3px #626262;
+}
+.react-calendar__tile--active{
+  background-color: #15335d !important;
+}
+.react-calendar__tile--now {
+  background-color: #d40000 !important;
+}
+.sendMessg{
+  position: absolute;
+  width: fit-content;
+  background-color: #15335d;
+  color: white;
+  padding: 15px;
+  border-radius: 16px;
+  border-top-right-radius: 0;
+  height: fit-content;
+  right: 10px;
+}
+.recMessg{
+  position: fixed;
+  width: fit-content;
+  background-color: #004ec2;
+  color: white;
+  padding: 15px;
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  height: fit-content;
+  left: 10px;
+}
+.messgArea{
+  position:absolute;
+  padding-top: 20px;
+  height: calc(100% - 100px);
+  width: 100%;
+}
