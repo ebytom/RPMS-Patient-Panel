@@ -5,13 +5,18 @@ const Chats = () => {
     return (
         <div>
             <div className='chats'>
+                <div className='chatanddoc'>
+                <div className='chatDoctor'>
+                    <b>Dr. Lokesh</b>
+                </div>
                 <div className='messgArea'>
+                <div className='recMessg'>
+                        Hello! eby
+                    </div>
                     <div className='sendMessg'>
                         hi!
                     </div>
-                    <div className='recMessg'>
-                        Hello! eby
-                    </div>
+                </div>
                 </div>
                 <div className='chatbox'>
                     <input type="text" />
