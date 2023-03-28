@@ -143,6 +143,8 @@ code {
   border-bottom-right-radius: 12px;
 }
 .profilelogo{
+  position: relative;
+  z-index: 10;
   color: white;
 }
 .docDetails{
@@ -166,6 +168,7 @@ code {
   align-items: center;
 }
 .options{
+  cursor: pointer;
   margin-top: 20px;
   width: 80%;
   max-width: 400px;

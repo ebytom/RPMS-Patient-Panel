@@ -19,7 +19,7 @@ const Chats = () => {
                 </div>
                 </div>
                 <div className='chatbox'>
-                    <input type="text" />
+                    <input type="text" placeholder='Enter mesage here...' />
                     <div className='sendbtn'>
                         <ArrowRightIcon size={24} />
                     </div>
