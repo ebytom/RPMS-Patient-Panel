@@ -118,7 +118,7 @@ code {
   margin: 10px;
   border-radius: 18px;
   padding: 50px 10px ;
-  margin-top: -120px;
+  margin-top: -20px;
 }
 .userlogo{
   height: 100px;
@@ -152,7 +152,7 @@ code {
   margin-top: 20px;
   background-color: #15335d;
   color: white;
-  width: 70%;
+  width: 80%;
   border-radius: 12px;
   padding: 15px 5px;
 }
@@ -237,12 +237,13 @@ code {
   position: relative;
   margin-top: 20px;
   background-color: #c7ceff;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 230px);
   width: 95vw;
   max-width: 530px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 12px 20px 3px #626262;
 }
 .chatbox{
   position: absolute;
@@ -276,6 +277,7 @@ code {
   margin-left: -80px;
 }
 .sendbtn{
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -288,7 +290,7 @@ code {
 }
 .react-calendar{
   width: min(95vw,530px) !important;
-  height: 330px;
+  height: 300px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   box-shadow: 0px 12px 20px 3px #626262;
@@ -345,4 +347,26 @@ code {
 }
 .chatanddoc{
   width: 100%;
+}
+.user-details
+{
+  background-color: #9fbaf7;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  border-radius: 12px;
+  margin: 10px auto;
+}
+.logoutbtn{
+  cursor: pointer;
+  background-color: red;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.logoutbtn:hover{
+  background-color: #d40000;
+  color: white;
 }

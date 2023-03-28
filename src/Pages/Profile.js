@@ -15,12 +15,22 @@ const Profile = () => {
                 <img className="userlogo" src="user.png" />
                 <div className="profile-head">
                     <h1>EBY TOM</h1>
-                    <b>eby@yahoo.com</b>
+                    <b>ebytom</b>
+                </div>
+                <div className="user-details">
+                    <b>90</b>
+                </div>
+                <div className="user-details">
+                    <b>eby@gmail.com</b>
+                </div>
+                <div className="user-details">
+                    <b>9856412563</b>
                 </div>
                 <div className="docDetails">
                     <div><b>Dr. Lokesh</b></div>
                     <div><b>HK Hospital, Kengeri</b></div>
                 </div>
+                <div className="logoutbtn"><div><b>Logout</b></div></div>
             </div>
             
         </div>

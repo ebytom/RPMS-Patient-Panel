@@ -10,7 +10,7 @@ const Login = () => {
                 <div className="font-22px">Login</div>
                 <p><b>Remote Patient Monitoring System</b></p>
 
-                <input placeholder="Enter email"
+                <input placeholder="Enter username"
                     name="email"
                     type="text" 
                     className='emailinput'/>

@@ -17,12 +17,12 @@ const Home = () => {
                 <div className='options'>
                     <div
                         className={isSelected ? 'option1 selected' : 'option1'}
-                        onClick={() => setisSelected(!isSelected)}>
+                        onClick={() => setisSelected(true)}>
                         <b>Readings</b>
                     </div>
                     <div
                         className={isSelected ? 'option2' : 'option2 selected'}
-                        onClick={() => setisSelected(!isSelected)}>
+                        onClick={() => setisSelected(false)}>
                         <b>Chats</b>
                     </div>
                 </div>
